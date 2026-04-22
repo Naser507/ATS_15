@@ -1,0 +1,72 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (even if you don't use now)
+.venv/
+venv/
+env/
+
+# =========================
+# Build / Compilation
+# =========================
+Build/
+build/
+dist/
+*.o
+*.so
+*.dll
+*.exe
+*.out
+
+# Nuitka / packaging artifacts (future)
+*.bin
+*.pyd
+*.app
+
+# =========================
+# C / C++
+# =========================
+*.obj
+*.a
+*.lib
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+*.tmp
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Release outputs (generated)
+# =========================
+release/Linux/*
+release/Mac/*
+release/Windows/*
+
+# BUT keep folder structure
+!release/Linux/.keep
+!release/Mac/.keep
+!release/Windows/.keep
+
+# =========================
+# Misc
+# =========================
+*.bak
