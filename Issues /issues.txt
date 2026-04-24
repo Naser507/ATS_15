@@ -1,0 +1,14 @@
+naser445@antix1:~/projects/ATS_15/scripts
+$ ./run_app.sh 
+Traceback (most recent call last):
+  File "/home/naser445/projects/ATS_15/Core/app/main.py", line 9, in <module>
+    run_app()  
+    ^^^^^^^^^
+  File "/home/naser445/projects/ATS_15/Core/modules/gui/main_gui.py", line 62, in run_app
+    MainFrame()
+  File "/home/naser445/projects/ATS_15/Core/modules/gui/main_gui.py", line 18, in __init__
+    self._build_layout()
+  File "/home/naser445/projects/ATS_15/Core/modules/gui/main_gui.py", line 45, in _build_layout
+    splitter.SplitVertically(left, right, 250)
+wx._core.wxAssertionError: C++ assertion ""window1->GetParent() == this && window2->GetParent() == this"" failed at ./src/generic/splitter.cpp(842) in DoSplit(): windows in the splitter should have it as parent!
+naser445@antix1:~/projects/ATS_15/scripts
