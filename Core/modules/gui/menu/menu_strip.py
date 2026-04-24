@@ -23,7 +23,8 @@ def create_menu_bar(frame):
         "Help": wx.Menu(),
     }
 
-    build_file_menu(menus["File"])
+    #build_file_menu(menus["File"])
+    build_file_menu(menus["File"], frame)
     build_view_menu(menus["View"])
     build_dsp_menu(menus["DSP"])
     build_process_menu(menus["Process"])

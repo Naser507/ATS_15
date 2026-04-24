@@ -44,8 +44,22 @@ class MainFrame(wx.Frame):
         #splitter = wx.SplitterWindow(self.panel)
         splitter = wx.SplitterWindow(self.panel)
 
+
+        #Old left and right panel creation (before splitter)
+        #left = create_left_panel(splitter)
+        #right = create_right_panel(splitter)
+
         left = create_left_panel(splitter)
-        right = create_right_panel(splitter)
+        self.right_panel = create_right_panel(splitter)
+        right = self.right_panel
+
+
+
+
+
+
+
+
 
         bottom = create_bottom_buttons(self.panel)
 
